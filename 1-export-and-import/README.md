@@ -35,6 +35,8 @@ module.exports = { sum, sub }
 Lalu kita akan import functions yang sudah di-*export* dari module-module diatas ke file utama:
 
 ```js
+// app.js
+
 const math = require("./math");
 const log = require("./logger");
 
