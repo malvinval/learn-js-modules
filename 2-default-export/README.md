@@ -19,7 +19,7 @@ export default log;
 ```js
 // app.mjs
 
-import {default as log} from "./logger";
+import log from "./logger";
 
 log("hello");
 ```

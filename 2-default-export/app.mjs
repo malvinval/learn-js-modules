@@ -1,3 +1,3 @@
-import { default as log } from "./logger.mjs";
+import log from "./logger.mjs";
 
 log("This is MJS.");
